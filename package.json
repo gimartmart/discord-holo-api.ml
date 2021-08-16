@@ -1,6 +1,6 @@
 {
   "name": "discord-holo-api",
-  "version": "1.2.1",
+  "version": "1.0.1",
   "description": "A simply wrapper for holo api",
   "main": "main.js",
   "scripts": {
@@ -15,8 +15,7 @@
     "image",
     "nodejs",
     "kiss",
-    "hug",
-    "neko"
+    "hug"
   ],
   "author": "mandarinka",
   "license": "ISC",

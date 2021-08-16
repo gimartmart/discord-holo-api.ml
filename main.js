@@ -1,9 +1,3 @@
-/**
- * @author zechaos
- * @param key
- * @returns {Promise<unknown>}
- */
-
 const chalk = require('chalk');
 const {get} = require('axios');
 module.exports = (key) => new Promise((resolve, reject) => {
