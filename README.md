@@ -1,16 +1,22 @@
-[![npm](https://img.shields.io/npm/dt/neko-love-wrapper?style=for-the-badge)](https://www.npmjs.com/package/neko-love-wrapper)
-[![npm](https://img.shields.io/npm/v/neko-love-wrapper?style=for-the-badge)](https://www.npmjs.com/package/neko-love-wrapper)
+[![npm](https://img.shields.io/npm/dt/discord-holo-api?style=for-the-badge)](https://www.npmjs.com/package/discord-holo-api)
+[![npm](https://img.shields.io/npm/v/discord-holo-api?style=for-the-badge)](https://www.npmjs.com/package/discord-holo-api)
 
-# neko-love-wrapper
-A simply wrapper for neko-love api
+# discord-holo-api
 
 # Installation
 
 Install package
 ```
-npm i discord-holo-api or npm install discord-holo-api
+npm i discord-holo-api
+
 ```
 
+or
+
+```
+npm install discord-holo-api
+
+```
 # How to use
 
 ```js
