@@ -1,0 +1,27 @@
+{
+  "name": "discord-holo-api",
+  "version": "1.2.1",
+  "description": "A simply wrapper for holo api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gimartmart/discord-holo-api.ml"
+  },
+  "keywords": [
+    "api",
+    "image",
+    "nodejs",
+    "kiss",
+    "hug",
+    "neko"
+  ],
+  "author": "mandarinka",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^3.0.0"
+  }
+}
