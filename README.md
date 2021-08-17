@@ -36,6 +36,5 @@ console.log(url)
 ## Links
 
 *   [Website](http://discord-holo-api.ml/api/)
-*   [Documentation](https://docs.neko-love.xyz/)
 *   [Discord](https://discord.gg/TApdfmN)
 
