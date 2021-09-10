@@ -22,13 +22,13 @@ npm install discord-holo-api
 ```js
 const DiscordHoloApi = require('discord-holo-api');
 
-DiscordHoloApi(endpoint).then((url) =>{
+DiscordHoloApi("art").then((url) =>{
 console.log(url)
 })
 
 /*Available endpoint
 
-["art", "ask","bite", "cry", "cuddle", "dance", "ego", "glare","highfive", "hug", "kiss", "lick", "nom", "pat", "poke", "pressf", "punch", "sex", "shoot", "slap", "slappope", "smug", "suicide", "tickle", "wasted", "wink"]
+["404, anal, art, ask, avatar, baka, bite, bj, blowjob, boobs, cry, cuddle, cum, dance, ego, ero, erofeet, erok, erokemo, eroyuri, feed, feet, feetg, fox_girl, futanari, glare, hentai_gif, highfive, holo, holoero, hololewd, hug, kemonomimi, kiss, kuni, les, lewd, lick, loli, meow, neko, ngif, nom, pat, poke, pressf, punch, pussy, pwankg, sex, slap, slappope, smug, solo, tickle, tits, trap, waifu, wallpaper, wasted, wink, woof, yuri"]
     
     */
 ```
@@ -36,5 +36,7 @@ console.log(url)
 ## Links
 
 *   [Website](http://discord-holo-api.ml/api/)
+*   [Api status](http://discord-holo-api.ml/api/stats)
+*   [GitHub](https://github.com/gimartmart/discord-holo-api.ml)
 *   [Discord](https://discord.gg/TApdfmN)
 
