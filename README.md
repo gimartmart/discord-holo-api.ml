@@ -1,6 +1,6 @@
 [![npm](https://img.shields.io/npm/dt/discord-holo-api?style=for-the-badge)](https://www.npmjs.com/package/discord-holo-api)
 [![npm](https://img.shields.io/npm/v/discord-holo-api?style=for-the-badge)](https://www.npmjs.com/package/discord-holo-api)
-[![install size](https://packagephobia.now.sh/badge?p=discord-holo-api?style=for-the-badge)](https://packagephobia.now.sh/result?p=discord-holo-api)
+[![install size](https://packagephobia.now.sh/badge?p=discord-holo-api)](https://packagephobia.now.sh/result?p=discord-holo-api)
 [![NPM](https://nodei.co/npm/discord-holo-api.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/discord-holo-api/)
 # discord-holo-api
 
