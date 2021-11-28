@@ -1,9 +1,8 @@
-const chalk = require('chalk');
 const {get} = require('axios');
 module.exports = (key) => new Promise((resolve, reject) => {
 
     if (!key) {
-        console.log(`${chalk.blue('[discord-holo-api.ml]')} ${chalk.red('[Error]')} No keywords provided\nList of endpoint \n`);
+        console.log(`No keywords provided\nList of endpoint \n`);
         return get(`http://discord-holo-api.ml/api`).then((res) => {
             resolve(res.data.endpoint)
         });
@@ -18,12 +17,12 @@ module.exports = (key) => new Promise((resolve, reject) => {
         resolve(res.data.url);
     }).catch(error => {
         if (error.response.status === 404) {
-            console.log(`${chalk.blue('[discord-holo-api.ml]')} ${chalk.red('[Error] No endpoint find')} \n\nAvailabled endpoint \n`);
+            console.log(`Availabled endpoint \n`);
             return get(`http://discord-holo-api.ml/api/`).then((res) => {
                 reject(res.data.endpoint)
             });
         } else {
-            throw reject(`${chalk.blue('[discord-holo-api.ml]')} ${chalk.red('[Error]')} Internal error: ${error.toString()} with error code ${error.response.status}`);
+            throw reject(`Internal error: ${error.toString()} with error code ${error.response.status}`);
         }
     })
 });
