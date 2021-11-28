@@ -1,4 +1,3 @@
-//const holo = require('discord-holo-api');
 async function test() {
   console.log(await holo("art")); // http://discord-holo-api.ml/api/art/(905).jpg
 }
